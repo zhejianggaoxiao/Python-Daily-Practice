@@ -25,7 +25,6 @@ web_page = 'https://github.com/zhejianggaoxiao/Pretty_Codes'
 last_update = None
 all_info = requests.get(api).json()
 cur_update = all_info['updated_at']
-print(cur_update)
 
 while True:
     if not last_update:
