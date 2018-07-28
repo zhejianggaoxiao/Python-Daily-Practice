@@ -21,6 +21,7 @@ def run_proc(args, **kwargs):
     for i in range(3,0,-1):
         print('%s ....' %i)
         time.sleep(1)
+    print(os.getppid())
 
 if __name__ == "__main__":
     print("父进程 %s" %os.getpid())
