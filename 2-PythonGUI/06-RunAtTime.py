@@ -1,18 +1,13 @@
 """
 -------------------------------------------------
-   File Name：     testcode.py
+   File Name：     06-RunAtTime
    Description :
    Author :       gaox
-   date：          7/21/18
+   date：          7/22/18
 -------------------------------------------------
    Change Activity:
-                   7/21/18:
+                   7/22/18:
 -------------------------------------------------
 """
 __author__ = 'gaox'
 
-import time
-
-for i in range(40):
-    print(i)
-    time.sleep(1)
